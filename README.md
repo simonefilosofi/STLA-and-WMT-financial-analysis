@@ -1,16 +1,5 @@
 # STLA-and-WMT-financial-analysis
 
-How to write the Report
-It is a memo of 3-5 (min/max) pages where you explain all the infor- mation and the tables that you produce, for all firms
-1
-3
-
-
-
-
-
-
-# Final Project Work
 Deadline of the project work delivery ON LUISS LEARN: April 23th, 11.00
 Final Presentation of the Project Work: Tuesday May 6th 15:45, Tuesday 8th May 17:00
 - In the main text, you just discuss the data and all the info about your firms.
