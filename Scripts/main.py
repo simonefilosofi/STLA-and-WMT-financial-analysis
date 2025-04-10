@@ -16,10 +16,13 @@ def main():
     
     ticker = "WMT"
     wmt = yf.Ticker(ticker)
+    historical_data = wmt.history(interval="1mo", period="5y")
     balance_sheet = wmt.balance_sheet
     income_statement = wmt.financials
     balansheet_to_csv = balance_sheet.to_csv('Dataset/wmt_balance_sheet.csv')
     income_statement_to_csv = income_statement.to_csv('Dataset/wmt_income_statement.csv')
+    historical_data_to_csv = historical_data.to_csv('Dataset/wmt_historical_data.csv')
+    print("Walmart historical data saved to wmt_historical_data.csv")
     print("Walmart Balance sheet data saved to wmt_balance_sheet.csv")
     print("Walmart Income statement data saved to wmt_income_statement.csv")
 
